@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran Pasien Klinik Sehat</title>
+</head>
+<body>
+    <h2>Pendaftaran Pemeriksaan Pasien - Klinik Sehat</h2>
+    <form action="proses_klinik.html" method="post">
+        Nama Pasien: <br>
+        <input type="text" name="nama_pasien" size="30" />
+        <br /><br />
+        
+        Umur: <br>
+        <input type="text" name="umur" size="5" /> Tahun
+        <br /><br />
+        
+        Keluhan Utama: <br>
+        <textarea name="keluhan" rows="4" cols="30">Tuliskan keluhan penyakit Anda...</textarea>
+        <br /><br />
+        
+        Poli Tujuan: <br>
+        <select name="poli_tujuan">
+            <option value="Poli Umum">Poli Umum</option>
+            <option value="Poli Gigi">Poli Gigi</option>
+            <option value="Poli Anak">Poli Anak</option>
+        </select>
+        <br /><br />
+        
+        <input type="submit" value="Kirim Pendaftaran" />
+    </form>
+</body>
+</html>
